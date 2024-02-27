@@ -1,0 +1,15 @@
+.modal-animation {
+  animation: modalAnimation 0.2s ease-linear;
+}
+
+@keyframes popupAnimation {
+}
+
+@keyframes modalAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
